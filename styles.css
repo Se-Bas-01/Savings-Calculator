@@ -8,7 +8,8 @@ body {
 }
 input {
     font-family: "Winky Rough", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
+    background-color: rgb(35, 182, 255);
 }
 h1 {
     display: flex;
@@ -21,4 +22,21 @@ p {
     display: flex;
     justify-content: center;
     font-family: "Winky Rough", sans-serif;
+    font-size: 30px;
+}
+::placeholder {
+    color: rgb(113, 113, 113);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: -10px;
+}
+button {
+    border-radius: 15px;
+    background-color: rgb(154, 154, 154);
+    font-size: 50px;
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 300;
 }

@@ -18,16 +18,17 @@
             <input type="number" id="currentAmount" placeholder="current amount">
             <input type="number" id="weekRate" placeholder="weekly amount">
         </div>
-    
-        <button onclick="calculateSum()">Submit</button>
-    
     </div>
 
+        <div class="button">
+            <button onclick="calculateSum()">Submit</button>
+        </div>
+
     <div class="answer">
+        <p>Money Left: $<span id="monLeft">0 </span>!</p>
+        <p>Week(s) Left: <span id="weekLeft">0 </span> week(s)!</p>
+        <p>Year(s) Left: <span id="yeLeft">0 </span> year(s)!</p>
     </div>
-    <p>Money Left: $<span id="monLeft">0</span>!</p>
-    <p>Week(s) Left: <span id="weekLeft">0</span> week(s)!</p>
-    <p>Year(s) Left: <span id="yeLeft">0</span> year(s)!</p>
 
     <script src="script.js"></script>
 </body>
