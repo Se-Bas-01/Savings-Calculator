@@ -12,4 +12,5 @@ function calculateSum() {
     const weekLeft = amtLeft / weekly;
 
     document.getElementById('monLeft').textContent = amtLeft;
+    document.getElementById('weekLeft').textContent = weekLeft;
 }
