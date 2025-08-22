@@ -1,3 +1,24 @@
 body {
     background-image: url(images/waves.jpg);
 }
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 100;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    font-family: "Winky Rough", sans-serif;
+}
