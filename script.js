@@ -10,7 +10,7 @@ function calculateSum() {
 
     const amtLeft = goal - current;
     const weekLeft = Math.floor(amtLeft / weekly);
-    const yeLeft = weekLeft / 52;
+    const yeLeft = weekLeft / 52.18;
 
     document.getElementById('monLeft').textContent = amtLeft;
     document.getElementById('weekLeft').textContent = weekLeft;
